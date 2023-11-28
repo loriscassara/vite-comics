@@ -57,21 +57,20 @@ header{
 /* header elements */
 
 header img {
-	padding: 1rem;
+	padding: 1.5rem;
 	width: 8%;
 }
 
-.link-container {
-	display: flex;
-}
+header img:hover { cursor: pointer; }
+
+.link-container { display: flex; }
 
 a {
 	color: rgb(77, 77, 77);
 	padding: 1rem;
 	font-weight: bold;
+	font-size: smaller;
 }
 
-a:hover {
-	border-bottom: solid 3px #0c7cec;
-}
+a:hover { border-bottom: solid 3px #0c7cec; }
 </style>
