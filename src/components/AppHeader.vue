@@ -67,7 +67,7 @@ header img:hover { cursor: pointer; }
 
 a {
 	color: rgb(77, 77, 77);
-	padding: 1rem;
+	padding: 2rem 1rem;
 	font-weight: bold;
 	font-size: smaller;
 }

@@ -22,8 +22,9 @@
 
     <main>
         <div class="main-top-container">
+            <img src="../assets/image/jumbotron.jpg" alt="jumbotron">
             <div class="top-container">
-                contenuto
+
             </div>
         </div>
         <div class="main-bottom-container">
@@ -65,6 +66,13 @@
 .main-bottom-container { background-color: #0282f9; }
 
 /* main elements */
+
+.main-top-container > img {
+    max-height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
 
 .top-container {
     width: 80%;
